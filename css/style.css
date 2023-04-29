@@ -1,6 +1,62 @@
+body {
+  background: url(https://rare-gallery.com/uploads/posts/5385790-geometric-minimal-pastel-background-pattern-wall-surface-abdtract-abstract-modern-modern-architecture-pattern-minimal-colors-colourful-triangle-geometrci-geometrical-geometrical-shape-geometri.jpg)
+    no-repeat;
+  background-size: cover;
+}
 h1 {
   text-align: center;
+  font-size: 42px;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-color: #e3e5ec49;
+}
+.city {
+  font-size: 20px;
+  margin: 20px 0;
+  border-bottom: 2px dashed #20307048;
+  display: flex;
+  justify-content: space-between;
+}
+.city:last-child {
+  border: none;
+}
+.date {
+  font-size: 14px;
+  position: absolute;
+}
+.time {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 2;
+}
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #bfcaf88c;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-top: 30px;
 }
 footer {
   text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.city,
+h1,
+select,
+footer {
+  font-family: "Prata", serif;
+  color: #203070dc;
 }
