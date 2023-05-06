@@ -19,15 +19,15 @@
     <div class="container">
         <h1>World Clock</h1>
     </br>
-        <select style="border:1px solid #9eace0b9">
-            <option value="" class="value">Seattle</option>
-            <option value="" class="value">Madrid</option>
-            <option value="" class="value">Auckland</option>
-            <option value="" class="value">Honolulu</option>
+        <select id="citySelection" style="border:1px solid #9eace0b9">
+            <option value="America/Los_Angeles" class="value">Los Angeles</option>
+            <option value="Europe/Madrid" class="value">Madrid</option>
+            <option value="Pacific/Auckland" class="value">Auckland</option>
+            <option value="Pacific/Honolulu" class="value">Honolulu</option>
         </select>
-
-        <div class="city" id="seattle">
-            <h2>Seattle</h2>
+<div id="cities">
+        <div class="city" id="los-angeles">
+            <h2>Los Angeles</h2>
             <div class="date">April 3rd, 2023</div>
             <div class="time">09:15:00 <small>AM</small></div>
         </div>
@@ -49,7 +49,7 @@
             <div class="date">April 3rd, 2023</div>
             <div class="time">09:15:00 <small>AM</small></div>
         </div>
-
+    </div>
     </div>
 
     <footer>This project was coded by <strong>Nayeli Nieto</strong> and is <a href="https://github.com/nayelijnieto/world-clock-app" target="_blank">open sourced on GitHub</a>
